@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0a0e14"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SENTINEL"
+        android:textColor="#4ade80"
+        android:textSize="28sp"
+        android:letterSpacing="0.3"
+        android:fontFamily="monospace"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/status_idle"
+        android:textColor="#9ca3af"
+        android:textSize="14sp"
+        android:fontFamily="monospace"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="48dp" />
+
+    <Button
+        android:id="@+id/connectBtn"
+        android:layout_width="200dp"
+        android:layout_height="64dp"
+        android:text="@string/connect"
+        android:textColor="#0a0e14"
+        android:textSize="18sp"
+        android:backgroundTint="#4ade80"
+        android:fontFamily="monospace"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:textColor="#6b7280"
+        android:textSize="11sp"
+        android:fontFamily="monospace"
+        android:gravity="center" />
+</LinearLayout>
